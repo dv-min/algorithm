@@ -1,12 +1,6 @@
-n = int(input())
-result = []
-for n in range(n):
-    a, b = input().split(" ")
-    str = ""
-    for i in range(len(b)):
-        for j in range(int(a)):
-            str += b[i : i + 1]
-    result.append(str)
+a = input()
+b = input()
+c = input()
 
-for rs in result:
-    print(rs)
+val = a + b + c
+print(eval(val))
